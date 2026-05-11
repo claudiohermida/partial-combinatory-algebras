@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package "partial-combinatory-algebras" where
+package partial_combinatory_algebras where
   version := v!"0.1.0"
   keywords := #["math"]
   leanOptions := #[
