@@ -8,10 +8,10 @@ package partial_combinatory_algebras where
     ⟨`pp.unicode.fun, true⟩, -- pretty-prints `fun a ↦ b`
     ⟨`relaxedAutoImplicit, false⟩,
     ⟨`maxSynthPendingDepth, .ofNat 3⟩,
-    ⟨`weak.linter.mathlibStandardSet, true⟩,
+    ⟨`weak.linter.mathlibStandardSet, true⟩
   ]
 
-require "leanprover-community" / "mathlib" @ git "master"
+require mathlib from git "https://github.com/leanprover-community/mathlib4" @ "v4.16.0"
 
 @[default_target]
 lean_lib «PartialCombinatoryAlgebras» where
