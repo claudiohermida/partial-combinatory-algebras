@@ -11,7 +11,7 @@ package partial_combinatory_algebras where
     ⟨`weak.linter.mathlibStandardSet, true⟩
   ]
 
-require mathlib from git "https://github.com/leanprover-community/mathlib4" @ "v4.16.0"
+require mathlib from git "https://github.com/leanprover-community/mathlib4" @ "v4.24.0"
 
 @[default_target]
 lean_lib «PartialCombinatoryAlgebras» where
